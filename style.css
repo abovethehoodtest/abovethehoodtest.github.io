@@ -516,7 +516,7 @@ footer {
 
 @media (max-width: 768px) {
   .top-nav {
-    padding-inline: 5%;
+    display: none;
   }
 
   .top-nav nav a {
@@ -539,8 +539,8 @@ footer {
   }
 
   .scroll-indicator {
-    right: auto;
-    left: 50%;
+    right: 100%;
+    left: 80%;
     transform: translateX(-50%);
     bottom: 30px;
   }
