@@ -27,7 +27,7 @@ body {
   position: fixed;
   inset: 0;
   opacity: 0.08;
-  background-image: url("https://cdn.qumd.gr/img/700/393/80/2019/08/23/abovethehood_41457107_273201906848029_1421808700385636615_n.jpg?t=QhGQzPt0_cR4BWgs_VtXFQ");
+  background-image: #000;
   background-size: cover;
   mix-blend-mode: screen;
   z-index: 1;
@@ -588,4 +588,18 @@ footer {
   letter-spacing: 0.1em;
   color: var(--text-muted);
 }
+
+.hero video.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  opacity: 0.45; /* άλλαξε το όπως θες */
+}
+
+
+
 
